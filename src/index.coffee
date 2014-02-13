@@ -4,12 +4,14 @@ exports.timestamps = (schema, options) ->
   options = {} unless options
 
   schema.add
-    createdAt: Date
-    updatedAt: Date
+    stats: {
+      createdAt: Date
+      lastModified: Date
+    }
 
   schema.pre "save", (next) ->
-    unless @createdAt
-      @createdAt = @updatedAt = new Date
+    unless @stats.createdAt
+      @stats.createdAt = @stats.lastModified = new Date
     else
-      @updatedAt = new Date
+      @stats.lastModified = new Date
     next()

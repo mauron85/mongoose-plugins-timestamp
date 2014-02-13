@@ -6,7 +6,7 @@
   "main" : "lib/index.js",
   "repository": {
     "type": "git",
-    "url": "git://github.com/codedoctor/mongoose-plugins-timestamp.git"
+    "url": "git://github.com/mauron85/mongoose-plugins-timestamp.git"
   },
   "bin" : {
   },
@@ -34,11 +34,11 @@
     "should": "1.2.1",
     "mocha": "1.6.0"
   },
-  "bugs": { "url": "http://github.com/codedoctor/mongoose-plugins-timestamp/issues" },
+  "bugs": { "url": "http://github.com/mauron85/mongoose-plugins-timestamp/issues" },
   "licenses": [
     { "type": "MIT",
-      "url": "http://github.com/codedoctor/mongoose-plugins-timestamp/raw/master/LICENSE"
+      "url": "http://github.com/mauron85/mongoose-plugins-timestamp/raw/master/LICENSE"
     }
   ]
-  
+
 }
